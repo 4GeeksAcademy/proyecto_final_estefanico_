@@ -1,7 +1,7 @@
 from pickle import load
 import streamlit as st
 
-model = load(open("/workspaces/proyecto_final_estefanico_/data/processed/df_seleccionado", "rb"))
+model = load(open("/workspaces/proyecto_final_estefanico_/src/df_seleccionado", "rb"))
 
 
 st.title('Cálculo de ingreso')
